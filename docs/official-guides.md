@@ -12,7 +12,8 @@
 ## English
 
 - [BytePlus ModelArk guide](https://docs.byteplus.com/en/docs/ModelArk/2607689)
+- [Dreamina Seedance 2.5 Prompt Guide & Skill — Markdown snapshot](third-party/Dreamina-Seedance-2.5-Prompt-Guide-and-Skill.md)
 
 ## 版权说明
 
-上述官方资料的版权归其各自权利人所有。本仓库仅提供链接，不复制、修改或重新许可官方文档。引用或下载时请遵守对应网站的条款与版权声明。
+上述官方资料的版权归其各自权利人所有。除明确标注的英文 Markdown 快照外，本仓库仅提供链接；所有第三方资料均不因本仓库的 MIT License 而获得重新许可。引用、下载或再分发时请遵守对应网站的条款与版权声明。

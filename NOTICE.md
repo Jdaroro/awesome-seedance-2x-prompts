@@ -6,4 +6,8 @@ Seedance, Doubao, Volcano Engine, BytePlus, and related names and logos may be t
 
 The MIT License in this repository applies only to original repository content for which the repository contributors hold the necessary rights. It does not grant rights to third-party trademarks, official documentation, linked content, or other third-party materials.
 
-Official documentation is linked from `docs/official-guides.md` and is not mirrored in this repository.
+The file below is an English Markdown snapshot of third-party official documentation and is explicitly excluded from the MIT License:
+
+- `docs/third-party/Dreamina-Seedance-2.5-Prompt-Guide-and-Skill.md`
+
+Its content, text, images, trademarks, and other embedded or linked assets remain subject to the rights and terms of their respective owners. The canonical source is linked from `docs/official-guides.md`.
