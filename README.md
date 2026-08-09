@@ -1,0 +1,1 @@
+# awesome-seedance-2x-prompts
