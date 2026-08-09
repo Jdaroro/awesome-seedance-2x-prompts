@@ -50,7 +50,7 @@ skills/
 
 ## 📚 官方资料
 
-官方中文与英文资料统一维护在 [官方教程索引](docs/official-guides.md)。仓库只提供官方页面链接，不镜像官方 PDF，以便读者获取最新版并尊重原始资料的版权声明。
+官方中文与英文资料统一维护在 [官方教程索引](docs/official-guides.md)。仓库已归档 4 份中文官方 PDF，并为英文资料保留在线链接和 Markdown 快照。归档资料仅供学习与检索，版权归原始权利人所有。
 
 ## 贡献
 
@@ -58,4 +58,4 @@ skills/
 
 ## 许可
 
-本仓库原创内容采用 [MIT License](LICENSE)。`docs/third-party/` 下的官方资料快照、第三方名称、商标及链接不受 MIT License 许可，详见 [NOTICE](NOTICE.md)。
+本仓库原创内容采用 [MIT License](LICENSE)。`docs/third-party/` 与 `docs/official-pdfs/` 下的官方资料、第三方名称及商标不受 MIT License 许可，详见 [NOTICE](NOTICE.md)。

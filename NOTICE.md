@@ -10,4 +10,8 @@ The file below is an English Markdown snapshot of third-party official documenta
 
 - `docs/third-party/Dreamina-Seedance-2.5-Prompt-Guide-and-Skill.md`
 
-Its content, text, images, trademarks, and other embedded or linked assets remain subject to the rights and terms of their respective owners. The canonical source is linked from `docs/official-guides.md`.
+The official PDF archives below are also excluded from the MIT License:
+
+- `docs/official-pdfs/`
+
+Their content, text, images, trademarks, and other embedded or linked assets remain subject to the rights and terms of their respective owners. The documentation index is maintained in `docs/official-guides.md`.
