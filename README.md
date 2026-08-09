@@ -1,32 +1,42 @@
 # 🎬 Seedance 2.0 & 2.5 Prompt Engineering Toolkit
 
-> **让 Seedance 提示词从“描述想法”升级为“可执行的导演指令”。**
+[English](README.md) | [简体中文](README.zh-CN.md)
 
-面向 **Seedance 2.0 / 2.5、Dreamina、AI Video、Prompt Engineering** 的中英双语资料库：包含可直接安装的提示词优化 Skill、英文 Prompt Guide，以及多模态素材映射、镜头组织、关键帧、视频编辑、声音编辑与视频延长工作流。
+> **Turn rough ideas into production-ready directing instructions for Seedance.**
+
+An English-first toolkit for **Seedance 2.0, Seedance 2.5, Dreamina, AI video, and prompt engineering**. It includes installable prompt-optimization Skills, a comprehensive English prompt guide, official Chinese PDF archives, and practical workflows for multimodal references, camera direction, keyframes, editing, audio, and video extension.
 
 ![Seedance 2.0](https://img.shields.io/badge/Seedance-2.0-2563EB)
 ![Seedance 2.5](https://img.shields.io/badge/Seedance-2.5-7C3AED)
-![Language](https://img.shields.io/badge/Language-中文%20%7C%20English-0F766E)
+![Language](https://img.shields.io/badge/Language-English%20%7C%20中文-0F766E)
 ![License](https://img.shields.io/badge/License-MIT-16A34A)
 
 > [!IMPORTANT]
-> 本项目是社区整理项目，与字节跳动、火山引擎、BytePlus 或 Seedance 官方无隶属、授权或背书关系。官方资料请以原始网站的最新版本为准。
+> This is an independent, community-maintained project. It is not affiliated with, endorsed by, or officially connected to ByteDance, Volcano Engine, BytePlus, Doubao, Dreamina, or Seedance. Always check the official documentation for the latest product behavior.
 
-## 内容
+## Highlights
 
-| Skill | 用途 |
+- Ready-to-install prompt optimization Skills for Seedance 2.0 and 2.5.
+- English Dreamina Seedance 2.5 prompt guide with examples and asset-mapping patterns.
+- Chinese official PDF archives for Seedance 2.0 and 2.5.
+- Coverage of multimodal references, storyboards, keyframes, camera movement, video editing, audio editing, and extension.
+- Clear licensing boundaries between original project content and third-party documentation.
+
+## Included Skills
+
+| Skill | Purpose |
 | --- | --- |
-| [`sd2-pe`](skills/sd2-pe/SKILL.md) | 优化 Seedance 2.0 多模态视频提示词 |
-| [`sd25-pe`](skills/sd25-pe/SKILL.md) | 优化 Seedance 2.5 文生视频、多参考、关键帧、分镜、编辑与延长提示词 |
+| [`sd2-pe`](skills/sd2-pe/SKILL.md) | Optimizes multimodal prompts for Seedance 2.0 |
+| [`sd25-pe`](skills/sd25-pe/SKILL.md) | Optimizes Seedance 2.5 prompts for generation, references, keyframes, storyboards, editing, audio, and extension |
 
-## 🌍 English Prompt Guide
+## English Prompt Guide
 
-- [Dreamina Seedance 2.5 Prompt Guide & Skill](docs/third-party/Dreamina-Seedance-2.5-Prompt-Guide-and-Skill.md) — 英文指南 Markdown 快照
-- [BytePlus 官方在线版本](https://docs.byteplus.com/en/docs/ModelArk/2607689) — 建议优先查看最新版
+- [Dreamina Seedance 2.5 Prompt Guide & Skill](docs/third-party/Dreamina-Seedance-2.5-Prompt-Guide-and-Skill.md) — repository Markdown snapshot
+- [Canonical BytePlus page](https://docs.byteplus.com/en/docs/ModelArk/2607689) — recommended for the latest version
 
-## 安装
+## Quick Start
 
-将需要的 Skill 文件夹复制到你的 Codex Skills 目录，然后重新启动或刷新 Codex。
+Copy the Skill folder you need into your Codex Skills directory, then restart or refresh Codex.
 
 ```text
 skills/
@@ -36,26 +46,30 @@ skills/
     └── SKILL.md
 ```
 
-也可以只下载单个 `SKILL.md`，放入同名 Skill 文件夹中。
+You can also download a single `SKILL.md` and place it inside a folder with the corresponding Skill name.
 
-## 使用示例
+### Usage examples
 
 ```text
-请用 sd2-pe 优化这条 Seedance 2.0 提示词：……
+Use sd2-pe to optimize this Seedance 2.0 prompt: ...
 ```
 
 ```text
-请用 sd25-pe 把这段故事整理成 Seedance 2.5 可直接使用的提示词：……
+Use sd25-pe to turn this story into a production-ready Seedance 2.5 prompt: ...
 ```
 
-## 📚 官方资料
+## Documentation
 
-官方中文与英文资料统一维护在 [官方教程索引](docs/official-guides.md)。仓库已归档 4 份中文官方 PDF，并为英文资料保留在线链接和 Markdown 快照。归档资料仅供学习与检索，版权归原始权利人所有。
+- [Official guide index](docs/official-guides.md)
+- [Chinese PDF archive](docs/official-pdfs/README.md)
+- [English Markdown guide](docs/third-party/Dreamina-Seedance-2.5-Prompt-Guide-and-Skill.md)
 
-## 贡献
+The archived official materials are provided for learning and reference. Their copyrights remain with their respective rights holders.
 
-欢迎通过 Issue 或 Pull Request 提交纠错、兼容性改进和使用案例。提交内容前请确认你拥有相应的发布权利，且不要上传 API Key、个人数据或无再分发许可的第三方文件。
+## Contributing
 
-## 许可
+Issues and pull requests are welcome. Please verify that you have the right to publish submitted content, and never commit API keys, personal data, or third-party files without redistribution permission.
 
-本仓库原创内容采用 [MIT License](LICENSE)。`docs/third-party/` 与 `docs/official-pdfs/` 下的官方资料、第三方名称及商标不受 MIT License 许可，详见 [NOTICE](NOTICE.md)。
+## License
+
+Original project content is available under the [MIT License](LICENSE). Official documentation under `docs/third-party/` and `docs/official-pdfs/`, as well as third-party names and trademarks, is excluded from the MIT License. See [NOTICE](NOTICE.md).
