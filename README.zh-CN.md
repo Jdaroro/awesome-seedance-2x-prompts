@@ -26,6 +26,11 @@
 - [Dreamina Seedance 2.5 Prompt Guide & Skill](docs/third-party/Dreamina-Seedance-2.5-Prompt-Guide-and-Skill.md) — 英文指南 Markdown 快照
 - [BytePlus 官方在线版本](https://docs.byteplus.com/en/docs/ModelArk/2607689) — 建议优先查看最新版
 
+## 社区参考资源
+
+- [社区资源索引](docs/community-resources.md) — 收录与 Seedance、AI 视频提示词和制作工作流相关的第三方公开项目。
+- [Framewright](https://github.com/jamesltr0701-cell/Framewright) — 独立的影视编译与 AI 影视前期制作项目；简要说明见社区资源索引。
+
 ## 安装
 
 将需要的 Skill 文件夹复制到你的 Codex Skills 目录，然后重新启动或刷新 Codex。
@@ -53,6 +58,10 @@ skills/
 ## 📚 官方资料
 
 官方中文与英文资料统一维护在 [官方教程索引](docs/official-guides.md)。仓库已归档 4 份中文官方 PDF，并为英文资料保留在线链接和 Markdown 快照。归档资料仅供学习与检索，版权归原始权利人所有。
+
+## 其他资料
+
+- [社区资源索引](docs/community-resources.md)
 
 ## 贡献
 
