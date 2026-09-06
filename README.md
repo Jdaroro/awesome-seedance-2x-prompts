@@ -34,6 +34,11 @@ An English-first toolkit for **Seedance 2.0, Seedance 2.5, Dreamina, AI video, a
 - [Dreamina Seedance 2.5 Prompt Guide & Skill](docs/third-party/Dreamina-Seedance-2.5-Prompt-Guide-and-Skill.md) — repository Markdown snapshot
 - [Canonical BytePlus page](https://docs.byteplus.com/en/docs/ModelArk/2607689) — recommended for the latest version
 
+## Community References
+
+- [Community resources index](docs/community-resources.md) — selected third-party projects related to Seedance, AI-video prompting, and production workflows.
+- [Framewright](https://github.com/jamesltr0701-cell/Framewright) — an independent cinematic compiler and AI filmmaking pre-production project; see the community index for a short scope note.
+
 ## Quick Start
 
 Copy the Skill folder you need into your Codex Skills directory, then restart or refresh Codex.
@@ -63,6 +68,7 @@ Use sd25-pe to turn this story into a production-ready Seedance 2.5 prompt: ...
 - [Official guide index](docs/official-guides.md)
 - [Chinese PDF archive](docs/official-pdfs/README.md)
 - [English Markdown guide](docs/third-party/Dreamina-Seedance-2.5-Prompt-Guide-and-Skill.md)
+- [Community resources](docs/community-resources.md)
 
 The archived official materials are provided for learning and reference. Their copyrights remain with their respective rights holders.
 
