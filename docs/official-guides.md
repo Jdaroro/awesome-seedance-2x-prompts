@@ -8,8 +8,8 @@
 
 - [Doubao Seedance 2.0 系列提示词指南](<official-pdfs/zh-CN/火山方舟_Doubao Seedance 2.0 系列提示词指南_1784531609.pdf>)
 - [Doubao Seedance 2.0 系列教程](<official-pdfs/zh-CN/火山方舟_Doubao Seedance 2.0 系列教程_1786090240.pdf>)
-- [Doubao Seedance 2.5 提示词指南](<official-pdfs/zh-CN/火山方舟_Doubao Seedance 2.5 提示词指南_1786106010.pdf>)
-- [Doubao Seedance 2.5 教程](<official-pdfs/zh-CN/火山方舟_Doubao Seedance 2.5 教程_1786101180.pdf>)
+- [Doubao Seedance 2.5 提示词指南](<official-pdfs/zh-CN/火山方舟_Doubao Seedance 2.5 提示词指南_1786425487.pdf>)
+- [Doubao Seedance 2.5 教程](<official-pdfs/zh-CN/火山方舟_Doubao Seedance 2.5 教程_1788254063.pdf>)
 - [BytePlus 官方在线版：Dreamina Seedance 2.5 prompt guide（简体中文）](https://docs.byteplus.com/zh-CN/docs/ModelArk/2607689)
 
 ## English
