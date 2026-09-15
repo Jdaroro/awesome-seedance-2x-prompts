@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>X Image Viewer</title>
+  <style>
+    html,body{margin:0;width:100%;height:100%;background:#111;color:#eee;font-family:system-ui,sans-serif}
+    main{width:100%;height:100%;display:flex;align-items:center;justify-content:center;overflow:auto}
+    img{max-width:100vw;max-height:100vh;object-fit:contain;display:block}
+    .msg{padding:24px;max-width:760px;line-height:1.5}
+  </style>
+</head>
+<body>
+<main id="app"><div class="msg">Loading image…</div></main>
+<script>
+(() => {
+  const app = document.getElementById('app');
+  const raw = new URLSearchParams(location.search).get('img');
+  if (!raw) {
+    app.innerHTML = '<div class="msg">Missing ?img= URL</div>';
+    return;
+  }
+  let url;
+  try { url = new URL(raw); } catch {
+    app.innerHTML = '<div class="msg">Invalid image URL</div>';
+    return;
+  }
+  if (url.protocol !== 'https:') {
+    app.innerHTML = '<div class="msg">Only HTTPS image URLs are allowed</div>';
+    return;
+  }
+  const img = new Image();
+  img.referrerPolicy = 'no-referrer';
+  img.alt = 'remote image';
+  img.onload = () => { app.replaceChildren(img); document.title = url.pathname.split('/').pop() || 'X Image Viewer'; };
+  img.onerror = () => { app.innerHTML = '<div class="msg">IMAGE_LOAD_FAILED</div>'; };
+  img.src = url.href;
+})();
+</script>
+</body>
+</html>
